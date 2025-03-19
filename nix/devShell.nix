@@ -14,7 +14,7 @@ mkShell rec {
     # fix the Makefile.
     bash
     nodejs_23
-    
+
     # Required for CI for format checking.
     alejandra
   ];
